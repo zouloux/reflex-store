@@ -1,7 +1,7 @@
 {
   "name": "@zouloux/store",
   "type": "module",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Simple but powerful state store system for React Preact and Reflex.",
   "main": "./dist/store.es2017.cjs",
   "module": "./dist/store.es2020.mjs",
@@ -34,7 +34,7 @@
     "@types/node": "^18.8.2",
     "@zouloux/reflex": "^0.10.4",
     "@zouloux/signal": "^0.2.4",
-    "@zouloux/tsbundle": "^1.3.1"
+    "@zouloux/tsbundle": "^1.4.0"
   },
   "tsbundle": {
     "output": "./dist",
@@ -57,9 +57,7 @@
         "outName": "adapter-reflex",
         "input": "./src/adapter-reflex.ts",
         "formats": [
-          "es2017.cjs",
-          "es2020.mjs",
-          "es2017.min.js"
+          "es2020.mjs"
         ],
         "filterGlob": "adapter-reflex.*",
         "exportBits": false
