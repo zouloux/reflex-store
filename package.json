@@ -1,0 +1,26 @@
+{
+  "name": "@zouloux/store",
+  "version": "0.1.0",
+  "description": "",
+  "main": "./dist/index.es2017.cjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zouloux/store.git"
+  },
+  "keywords": [
+    "store",
+    "state",
+    "reflex",
+    "react",
+    "preact"
+  ],
+  "author": "Alexis Bouhet (ZoulouX)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zouloux/store/issues"
+  },
+  "homepage": "https://github.com/zouloux/store#readme"
+}
